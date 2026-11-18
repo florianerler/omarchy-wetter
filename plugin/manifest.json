@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "wetter",
+  "name": "Wetter",
+  "version": "1.0.0",
+  "author": "Erler Florian",
+  "license": "MIT",
+  "description": "Wetter, Regenvorschau, Stunden- und 7-Tage-Prognose (Open-Meteo).",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Wetter",
+    "description": "Wetter mit Regenvorschau und Prognose.",
+    "category": "Info",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
